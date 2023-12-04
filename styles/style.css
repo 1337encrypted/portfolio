@@ -1,12 +1,11 @@
 :root{
   --clr-dark: #020617;
   --clr-light: #f1f5f9;
-  --clr-gray400: #9ca3af;
-  --clr-gray600: #4b5563;
-  --clr-gray800: #1f2937;
+  --clr-grey400: #9ca3af;
+  --clr-grey600: #4b5563;
+  --clr-grey800: #1f2937;
   --clr-rose: #e11d48;
   --clr-indigo: #4f46e5;
-}
 
 /* rose rgb(255, 29, 72) */
 /* indigo rgb(79, 70, 229) */
@@ -27,6 +26,7 @@
 --size-8xl: 6rem;
 --size-9xl: 8rem;
 --size-10xl: 10rem;
+}
 
 *{
   margin: 0;
@@ -53,7 +53,7 @@ svg{
   user-select: none;
 }
 
-button{
+button {
   display: inline-block;
   padding: 0;
   border: none;
